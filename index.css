@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+   
+}
+
+html{
+    scroll-behavior: smooth;
+
+    
+}
+
+nav{
+    height:13vh;
+    /* background-color: red; */
+}
+
+.main_container{
+    background-image:url('images/doctor.png');
+    background-color: rgba(230, 233, 233, 0.800); 
+    background-attachment:scroll;
+    background-position: right;
+    height: 100vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row; 
+    /* background-color: red; */
+    /* height: 100vh; */
+
+}
+
+.inner_third{
+    /* background-color: skyblue; */
+    margin-top: 100px!important;
+    margin-left: 15px!important;
+    width: 100%;
+}
+
+.inner_third button{
+    margin-left: 0!important;
+}
+
+.varun{
+    /* background-color: black; */
+    height: 100vh;
+    
+    
+    
+}
+.cards{
+    
+    height:55vh;
+    background-color: rgb(230, 240, 244);
+    border:0px solid transparent; 
+    margin-top: 100px;
+    margin-left: 15px;
+    
+}
+.cards img{
+    
+    max-width: 60%;
+    height: auto;
+    
+}
+
+.learn_more{
+    display: flex;
+    flex-direction: row;
+}
+
+.learn_image{
+    margin: 130px 50px;
+    
+}
+
+
+
+.learn_text{
+   
+    margin: 100px 40px;
+  
+   
+}
+
+.spec_card{
+    
+    margin-top: 40px;
+    margin-left: 37px;
+    
+   
+
+}
+
+.img-fluid{
+    height: 35vh;
+    object-fit: fill;
+
+}
+
+
+
+
+
+.footer{
+    height:50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 70px 50px;
+}
+
+.products{
+    /* background-color: green; */
+    height:30vh;
+}
+
+
+
+.founder img{
+    border:2px solid blue;
+    border-radius: 5%;
+    max-width:35%;
+    height: auto;
+    margin-left: 120px;
+}
+
+.news-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.news-text h3 a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+
+}
+
+.news-date{
+    background-color: blue;
+    padding: 12px 30px;
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    left: 30px;
+    color: white;
+
+}
+
+
+
+
+
+
+
